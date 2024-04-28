@@ -8,7 +8,7 @@ global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="ngoyaibraah@gmail.com"
-global.location="Bungoma,Kenya."
+global.location="Kisumu,Kenya."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
@@ -23,8 +23,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "25471077266";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "PANTHER;;;";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254706610185";
 
 
 
@@ -72,7 +72,7 @@ module.exports = {
   ownername:process.env.OWNER_NAME|| "It'x 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
-  errorChat : process.env.ERROR_CHAT || "",
+  errorChat : process.env.ERROR_CHAT || "",PANTHER;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0JWTDlNY0ttOFkwNmJ1Ymc5b2Z6SnJiS25DckgwTlhkTWoyY1N5RUFuVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidEZWemozVmVyVzF0c1MwUkhOb0tLbmJzZXV4dUhNODFFUjUwTFh3TjZHTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzRWZRaXRwWld3TFhwZVd6akZIcm9ieVNycVVGVXhOZEZRelpYZzQzNjFjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrQWsyQ21OVmJVYWtPOFdzRWk5b016T2dTcXdxUWE1N0pPWTBUbytrMEdRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlGc2ZwUGwyZXBxQlhmL2t5eVR6SVVyOWdhQ0lSVkZ2NldxS04ydnpWazA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjAzcHZmOTFZRE1TaGp1RENuYUZ6SDQ5U2FlOGFyMytXYmVQaGRibllER2c9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY000dStsUzJ2RFlQTEkrMURVWnBHeExJZVd0M3dqeDIrdjN5Q0pidXdsbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0QzR3dad2tJOEtwRDVrTENjTWU0Z0I3YnpuRnZ3MjR2T2FQUXRFTnMydz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImcxQ3prbldMQ3BKa2E2UitXZ3M2VDB4NU1tVEdDNkV2TW10bEtqeDRGSWZRMzBaRU5TajYxcDNLZ1Y2SXluOVhOT2pCbHNqOTJOZGNoTlAvQ3dTZmdnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjUsImFkdlNlY3JldEtleSI6InpqOVlnVFhwSUR5dUJOTXF6L29tSEhWWFcyWFM2Rnd1UXErcU5pUXY5L2s9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InJLc3F4aV95Ul9tWGxXRVN4NjVHWWciLCJwaG9uZUlkIjoiZDU5ODRjODUtZDkzZi00ZDA4LTlmYmEtYTJhOTkzMjEwMjZlIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRQK1hqS3NSNmJWWjVHOFIwdjd0YjN1VUIrZz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5MUsxYlBJTTZwRXpYVURqdCszN3JmbFVPMFE9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiQ0pRQ1paR1giLCJtZSI6eyJpZCI6IjI1NDcwNjYxMDE4NTo3QHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuKalO+4j/CfkqvwnZCA8J2Qp/CdkKjwnZCn8J2QsvCdkKbwnZCo8J2QrvCdkKzinKjimqHimpTvuI8ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0pMdW1zOEhFS3FsdTdFR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjJwZThJdVZjcDBMc1ovNU1BRUdiQXFiV1ZBRjdCNHRTRVVhc2hvWmZmbWs9IiwiYWNjb3VudFNpZ25hdHVyZSI6InhjY29tdnlPc2FqbHkrcTFCRnozQ25yaVpRMzRlWjlvTkpvS2VhclhHL3JJbWlVTEllSHVwVCtiNTR3VXpzbCt5a2pCNW90WVVHa1BqcVFvb24wUkJRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJNTmxmak45SkJudGVLMGVKTjByeDRaWEVTSkRtdDZMTVZSemlsNmFsQW9pWkFKbXppaWdON2tUZURtRFFnM0dOZ1h6V2w5Y3c2UndMZWN0cktJa25oQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDcwNjYxMDE4NTo3QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmRxWHZDTGxYS2RDN0dmK1RBQkJtd0ttMWxRQmV3ZUxVaEZHcklhR1gzNXAifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTQzNDQ2MzEsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBREdCIn0=
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
